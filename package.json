@@ -1,0 +1,25 @@
+{
+  "name": "Yoga",
+  "version": "1.0.0",
+  "description": "瑜伽经典招式总结",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "img": "node src/fetchImg.js",
+    "video": "node src/fetchVideo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzx365/Yoga.git"
+  },
+  "keywords": [],
+  "author": "wzx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzx365/Yoga/issues"
+  },
+  "homepage": "https://github.com/wzx365/Yoga#readme",
+  "devDependencies": {
+    "request": "^2.88.0"
+  }
+}
